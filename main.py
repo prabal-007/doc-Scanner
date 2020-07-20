@@ -34,6 +34,7 @@ def getContoures(img):
     return biggest
 
 
+
 while True:
     status, img = cam.read()
     img = cv2.resize(img,(imgwidth,imgheight))
